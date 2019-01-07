@@ -1,5 +1,5 @@
 # How to Use This Repo
-This repo contains the project files needed for Treehouse's [Build a Chatbot with Watson APIs](https://teamtreehouse.com/library/build-a-chatbot-with-watson-apis) course. Clone this repo on your computer to sync up with the instructors so you can follow along and build your own chatbot.
+This is 
 
 The remaining instructions below are included here for additional reference, but you should follow along with the course to make this app work with Watson APIs.
 
@@ -24,18 +24,19 @@ For more information about Conversation, see the [detailed documentation](http:/
 The app interface is designed and trained for chatting with a cognitive car. The chat interface is on the left, and the
 JSON that the JavaScript code receives from the server is on the right. Your questions and commands are run against a small set of sample data trained with intents like these:
 
-    turn_on
-    weather
-    capabilities
+   menu
+   general greetings
+   cancel order
 
 These intents help the system to understand variations of questions and commands that you might submit.
 
 Example commands that can be executed by the Conversation service are: 
 
-    turn on windshield wipers
-    play music
+  I want to know about the menu
+  i want to cancel my order
+  cancel my order
 
-If you say *"Wipers on"* or *"I want to turn on the windshield wipers"*, the system
+If you say *cancel my order* or *"I want to cancel my order*, the system
 understands that in both cases your intent is the same and responds accordingly.
 
 <a name="bluemix">
